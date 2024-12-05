@@ -1,0 +1,20 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --watch ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/generator": "^7.26.3",
+    "@babel/parser": "^7.26.3",
+    "@babel/types": "^7.26.3"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.26.3"
+  }
+}
